@@ -42,19 +42,7 @@ Response
 }
 ```
 
-## Installation
 
-```bash
-git clone <repository-url>
-
-cd drf-apiview-basics
-
-pip install -r requirements.txt
-
-python manage.py migrate
-
-python manage.py runserver
-```
 
 ## Author
 
