@@ -1,0 +1,62 @@
+# Django REST Framework - APIView Basics
+
+A simple Django REST Framework project demonstrating how to build APIs using `APIView`.
+
+## Features
+
+- Class-Based APIView
+- GET Request Handling
+- JSON Responses
+- Django REST Framework Integration
+
+## Tech Stack
+
+- Python
+- Django
+- Django REST Framework
+
+---
+
+## Screenshots
+
+### Django REST Framework Browsable API
+
+![DRF API](screenshots/restapi-withrest2.png)
+
+### Postman Response
+
+![Postman](screenshots/postman-test-api-withrest2.png)
+
+---
+## Project Structure
+
+```
+project/
+│── testapp/
+│── manage.py
+```
+
+## API Endpoint
+
+### GET /
+
+Response
+
+```json
+{
+    "msg": "Happy Coding",
+    "coding": [
+        "python",
+        "java",
+        "javaScript",
+        "c",
+        "C++"
+    ]
+}
+```
+
+
+
+## Author
+
+Sajjad Ali
