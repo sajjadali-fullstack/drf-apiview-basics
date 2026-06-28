@@ -13,7 +13,6 @@ class TestAPIView(APIView):  # TestAPIView is a child class of APIView
         # Response class is responsible to convert python dict to json_data
         return Response({'msg':'Happy Coding', 'coding':coding})
 
-
     # POST
     def post(self, request, *args, **kwargs):
         serializer =  NameSerializer(data = request.data)
@@ -24,3 +23,15 @@ class TestAPIView(APIView):  # TestAPIView is a child class of APIView
         else:
             return Response(serializer.errors, status=400)
 
+    # PUT'
+    def put(self, request, *args, **kwargs):
+        return Response({'msg':'This response is from PUT method APIView'})
+    
+    # PATCH
+    def patch(self, request, *args, **kwargs):
+        return Response({'msg':'This response is from PATCH method APIView'})
+    
+    # DELETE
+    def delete(self, request, *args, **kwargs):
+        return Response({'msg':'This response is from DELETE method APIView'})
+    
