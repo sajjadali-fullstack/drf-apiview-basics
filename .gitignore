@@ -12,7 +12,7 @@ env/
 db.sqlite3
 
 # Documentation
-documentation.txt
+documentaton.txt
 
 # VS Code
 .vscode/
