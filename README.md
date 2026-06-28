@@ -15,6 +15,19 @@ A simple Django REST Framework project demonstrating how to build APIs using `AP
 - Django
 - Django REST Framework
 
+---
+
+## Screenshots
+
+### Django REST Framework Browsable API
+
+![DRF API](screenshots/restapi-withrest2.png)
+
+### Postman Response
+
+![Postman](screenshots/postman-test-api-withrest2.png)
+
+---
 ## Project Structure
 
 ```
